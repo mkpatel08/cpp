@@ -28,7 +28,7 @@ class derived : public base2
     {
         for(i=a;i<=b;i++)
         {
-            fact=i;
+            fact*=i;
         }
         cout<<fact<<"/t";
     }
