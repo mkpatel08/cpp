@@ -13,6 +13,7 @@ int main()
         }  
         read.close();  
     }
-    cout<<"File opening is fail.";
-    return 0;
+    else
+        cout<<"File opening is fail.";
+        return 0;
 }
